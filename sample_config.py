@@ -13,22 +13,22 @@ class Config(object):
     LOGGER = True
     # MUST NEEDED VARS
     # set this value with your name
-    ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+    ALIVE_NAME = os.environ.get("mitigang", None)
     # Get the values for following 2 from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH") or None
+    APP_ID = int(os.environ.get("27090504", 6))
+    API_HASH = os.environ.get("47414bd130fcdf88b5546b116a779058") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
-    DB_URI = os.environ.get("DATABASE_URL", None)
+    DB_URI = os.environ.get("postgres://bytclqqc:Ni3b-Op06yuxW3W7m0Nj92jJq0FBZm5v@mel.db.elephantsql.com/bytclqqc", None)
     # Get this value by running python3 stringsetup.py or https://repl.it/@krishna1709/generatestringsession
-    LEGEND_STRING = os.environ.get("LEGEND_STRING", None)
+    LEGEND_STRING = os.environ.get("BACBmr2CH49CHDwLypaF5OpKqGupvOZfzfJkGYpSFPE1rj0nWxiyl99FLgTRU3URFXMPxlcfZOQqVatGOlkfCBehv59hPK4rFJ3fEcEA9Fj0z3QbJPv0ZzaLFIk9Pv3QDSRnOn0xQeRXVo4dhjI6CUCtpa6dMbIkdlLJ5tHvrjI1U6Uzgj93EPwOcPSqaOjuNS76aiuofOCaElFFCmAn29_K0lGyBou6JKXYJJECWEzRUilGpJZc8HrBG8-QdkeOa2R5qDzhnnAD2Umr-Kxkzp3Gqh9ZgcHMKdkqt1Axw2yfBHvXFs0AVLvFwFN5ERPKYQpySrg4vtTqwj0GNLGrEN2dAAAAAVDnzhAA", None)
     # Telegram BOT Token and bot username from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN") or os.environ.get("BOT_TOKEN_BF_HER", None)
+    BOT_TOKEN = os.environ.get("5910828786:AAGk4kH0zYSiEFHmG2axeWf1wjGBdCk25ng") or os.environ.get("5910828786:AAGk4kH0zYSiEFHmG2axeWf1wjGBdCk25ng", None)
     BOT_USERNAME = None
     # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required legend repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/LEGEND-AI/LEGENDUSERBOT"
+        "UPSTREAM_REPO", "https://github.com/Mititeryaki/bottel"
     )
     # BASIC and MAIN CONFIG VARS
     # for profile default name
